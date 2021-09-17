@@ -21,28 +21,24 @@ namespace Tech_Project_2
                 if (grades < 60)
                 {
                     Console.WriteLine("Your final letter grade would be an F.");
-                    Console.ReadKey(true);
                 }
                 else if ((grades > 59) && (grades < 70))
                 {
                     Console.WriteLine("Your final letter grade would be a D.");
-                    Console.ReadKey(true);
                 }
                 else if ((grades > 69) && (grades < 80))
                 {
                     Console.WriteLine("Your final letter grade would be a C.");
-                    Console.ReadKey(true);
                 }
                 else if ((grades > 79) && (grades < 90))
                 {
                     Console.WriteLine("Your final letter grade would be a B.");
-                    Console.ReadKey(true);
                 }
                 else if ((grades > 89) && (grades < 101))
                 {
                     Console.WriteLine("Your final letter grade would be an A.");
-                    Console.ReadKey(true);
                 }
+                Console.ReadKey(true);
             }
             catch
             {
